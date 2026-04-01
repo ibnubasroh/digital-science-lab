@@ -20,10 +20,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg- [#020617] text-slate-50 flex flex-col items-center py-10 px-4">
-      <h1 className="text-3xl font-bold text-cyan-400 mb-8 tracking-widest">DIGITAL SCIENCE LAB</h1>
+      <h1 className="text-3xl font-bold text-cyan-400 mb-8 tracking-widest">AgriSim AI</h1>
       
       <div className="bg-slate-900 border border-cyan-500/30 rounded-3xl p-10 shadow-2xl w-full max-w-md text-center">
-        <h2 className="text-xl mb-6">Uji Skala pH 🧪</h2>
+        <h2 className="text-xl mb-6">Simulasi Kualitas Tanah & Air 🧪</h2>
         
         <div className="w-20 h-48 border-4 border-slate-700 rounded-b-full mx-auto relative bg-slate-800 mb-6 overflow-hidden">
           <div 
@@ -44,7 +44,7 @@ export default function App() {
         <div className="mt-8 p-6 bg-cyan-950/30 rounded-2xl border border-cyan-500/20 text-left">
   <div className="flex items-center gap-2 mb-3">
     <span className="text-2xl">🤖</span>
-    <h4 className="font-bold text-cyan-400">AI Scientist:</h4>
+    <h4 className="font-bold text-cyan-400">Agronomis Digital:</h4>
   </div>
   <p className="text-slate-300 text-sm italic">
     {getAIExplanation(phValue)}
